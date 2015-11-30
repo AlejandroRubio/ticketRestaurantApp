@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tickets Calculator</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_main2">Cálculo de Tickets</string>
+
+    <string name="textTicketsGrandes">Total de tickets grandes: </string>
+    <string name="textTicketsPequenos">Total de tickets pequeños: </string>
+    <string name="textResto">Total resto a pagar: </string>
+
+    <string name="parametroGrandes">grandes</string>
+    <string name="parametroPequenos">pequenos</string>
+    <string name="parametroResto">resto</string>
+</resources>
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_secundary"
+    android:id="@+id/activity2"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tickets grandes"
+        android:id="@+id/resultadoGrandes"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+    android:background="@drawable/rounded_corners"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tickets pequeños"
+        android:id="@+id/resultadoPequenos"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/rounded_corners"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Resto a pagar"
+        android:id="@+id/resultadoResto"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/rounded_corners"
+        android:layout_alignParentEnd="true" />
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tickets.tickets" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.tickets.tickets.ActividadSplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tickets.tickets.ActividadResultado"
+            android:label="@string/title_activity_main2" >
+        </activity>
+        <activity
+            android:name="com.example.tickets.tickets.ActividadPrincipal"
+            android:label="@string/title_activity_main2" >
+        </activity>
+
+        <activity       android:name="com.example.tickets.tickets.ActividadPreferencias"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name="com.example.tickets.tickets.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

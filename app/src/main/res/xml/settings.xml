@@ -1,0 +1,26 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+
+    <PreferenceCategory
+        android:title="Tamaño de los tickets"
+        android:textSize="20px"
+        android:layout="@layout/mylayout">
+
+    <EditTextPreference
+        android:key="valorGrande"
+        android:title="Valor de los tickets 1"
+        android:summary="Introduzca el valor del ticket #1"
+        android:textSize="30px"
+        android:defaultValue="7.5"/>
+
+    <EditTextPreference
+        android:key="valorPequeno"
+        android:title="Valor de los tickets 2"
+        android:summary="Introduzca el valor del ticket #2"
+        android:textSize="30px"
+        android:defaultValue="1.5"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
